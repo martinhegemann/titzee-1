@@ -21,7 +21,7 @@ input.onGesture(Gesture.ScreenDown, function () {
         # . # . #
         . # # # .
         `)
-    control.waitMicros(5000000)
+    control.waitMicros(500000)
     basic.showLeds(`
         # # # # .
         . . . . #
@@ -29,9 +29,9 @@ input.onGesture(Gesture.ScreenDown, function () {
         # # # # .
         . # . . .
         `)
-    control.waitMicros(5000000)
+    control.waitMicros(500000)
     basic.showString("Neu Start,  Schüüüs ")
-    control.waitMicros(5000000)
+    control.waitMicros(500000)
     control.reset()
 })
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
